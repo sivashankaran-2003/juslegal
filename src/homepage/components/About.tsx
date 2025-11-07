@@ -1,0 +1,46 @@
+import React from "react"
+
+const About = React.forwardRef((props, ref) => {
+  return (
+    <>
+      {/* @ts-ignore */}
+      <section ref={ref}>
+        <div className="text-[#FFE69A] max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 sm:py-24">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold sm:text-6xl">About the Company</h2>
+          </div>
+
+          <div className="grid grid-cols-1 gap-8 mt-8 lg:gap-16 lg:grid-cols-2">
+            <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+              <img
+                className="absolute inset-0 object-cover w-full h-full"
+                src="https://www.hyperui.dev/photos/man-1.jpeg"
+                alt="Man using a computer"
+              />
+            </div>
+
+            <div className="lg:py-16">
+              <article className="text-[#FFFFFF] space-y-4 text-center md:text-left">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque
+                  tenetur quis eius quos ea neque sunt, accusantium soluta minus veniam tempora
+                  deserunt? Molestiae eius quidem quam repellat.
+                </p>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum explicabo quidem
+                  voluptatum voluptas illo accusantium ipsam quis, vel mollitia? Vel provident culpa
+                  dignissimos possimus, perferendis consectetur odit accusantium dolorem amet
+                  voluptates aliquid, ducimus tempore incidunt quas. Veritatis molestias tempora
+                  distinctio voluptates sint! Itaque quasi corrupti, sequi quo odit illum impedit!
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+})
+
+export default About

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url("https://fonts.googleapis.com/css?family=Shrikhand");
+@import url("https://fonts.googleapis.com/css?family=Rubik:400");
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+.container .innerContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+.container .title {
+  position: relative;
+  top:-210vh;
+  z-index: 100;
+  height: 100%;
+}
