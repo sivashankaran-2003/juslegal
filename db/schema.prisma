@@ -3,7 +3,7 @@
 
 datasource db {
   provider = "mongodb"
-  url      = env("DATABASE_URL")
+  url      = env("mongodb+srv://sivaiconicglobalsolution_db_user:Qp9QQd7m29trC3nk@siva.yp6tb0o.mongodb.net/juslegal")
 }
 
 generator client {
