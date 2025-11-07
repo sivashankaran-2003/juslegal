@@ -118,9 +118,9 @@ function Filtered({ currentUser, categories }) {
             <h2 className="text-2xl font-bold text-center text-black">No templates to show...</h2>
           </div>
         )}
-        {Array.isArray(Templates) ? Templates.map((project) => (
+        {Array.isArray(Templates) ? Templates.map((project,index) => (
           <a
-            key={project.id}
+        key={project.id?.toString() ?? index}
             className="rounded-xl p-5 text-lg drop-shadow-2xl"
             style={{ backgroundColor: nextColor(vcount++) }}
             onClick={() => {
