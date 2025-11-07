@@ -29,7 +29,7 @@ const Projects = ({ currentUser, categories }) => {
           </div>
         }
       >
-        <Filtered currentUser={currentUser} categories={categories} />
+        {/* <Filtered currentUser={currentUser} categories={categories} /> */}
       </Suspense>
     </>
   )
